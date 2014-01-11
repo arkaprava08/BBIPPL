@@ -1,0 +1,144 @@
+.container{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+li{
+    list-style: none;  
+}
+
+.tabble-nav div a{
+    display: block;
+}
+
+.tabble-content{
+    padding-top: 2em;
+}
+
+
+.dropdownmenu{
+    padding: 2em;
+    position: absolute;
+}
+.dropdownmenu{
+
+}
+/*header*/
+
+
+/*megamenu*/
+
+.megamenu{
+    position: relative;
+    border: 1px solid black;
+    background-color: #e5e5e5;
+}
+
+.megamenu > li{
+    text-align: center;
+}
+
+.megamenu > li > a{
+    display: block;
+    padding: .5em .8em .5em .8em;
+    font-size: small;
+}
+
+.megamenudropdown{
+    position: absolute;
+    background-color: blanchedalmond;
+    display: block;
+    width: 200%;
+}
+.megamenudropdown > li{
+    position: relative;
+    display: block;
+    padding: 1em;
+    float: left;
+}
+
+/*our process*/
+.our-process{
+    display: block;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.our-process-content{
+    display: block;
+    height: 140px;
+    border: 1px solid black;
+}
+
+.our-process-head{
+    padding-top: 1em;
+}
+
+/*recent successes*/
+.recent-successes-header{
+    padding-top: 1em;
+}
+
+.recent-successes{
+    position: relative;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.recent-successes > div > div:first-child > div{
+    border: 1px solid black;
+    height: 250px;
+}
+.slider{
+    display: block;
+}
+
+/*client testimonials */
+.client-employee-header{
+    padding-top: 1em;
+}
+
+.client-employee-content > div:first-child{
+    border: 1px solid black;
+    height: 230px;
+}
+
+.client-employee{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/*Blog*/
+.blog-header{
+    padding-top: 1em;
+}
+
+.blog{
+    position: relative;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.blog > div > div:first-child > div{
+    border: 1px solid black;
+    height: 250px;
+}
+.slider{
+    display: block;
+}
+/*contact us*/
+
+.contactus{
+    padding: 1em 0 1em 0;
+}
+
+/* footer */
+
+.footer{
+    border: 1px solid black;
+    padding: 1em 10% 1em 10%;
+}
+
