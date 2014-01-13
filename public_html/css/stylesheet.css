@@ -30,8 +30,30 @@ li{
 /*megamenu*/
 
 .megamenu{
-    border: 1px solid black;
+    //border: 1px solid black;
+    background-color: #999999;
     position: relative;
+}
+
+.megamenu a{
+    color: black;
+    display: block;
+}
+
+.megamenu > li > a{
+    padding-left: .5em;
+}
+
+.megamenu ul li:hover{
+    background-color: #e6e6e6;
+}
+
+.megamenu ul li{
+    padding: .5em 0 0 0;
+}
+
+.megamenu > li:hover{
+    background-color: #CCCCCC;
 }
 .megamenu > li{
     padding: .5em 0 .5em 0;
@@ -45,17 +67,17 @@ li{
 .megamenu .dropdown_columns {
     width: 400%;
 }
-.megamenu li .dropdown_container {
+.megamenu li:hover .dropdown_container {
     top:100%;
     left:auto;
-    background-color: white;
+    background-color: #cccccc;
 }
 
 .dropdown_container{
     position: absolute;
     margin:0;
-    padding-bottom:10px;
     padding-top: .5em;
+    padding-bottom: .5em;
     left:-9999em;
     top:-9999em;
     display: block;
@@ -99,14 +121,26 @@ li{
 .megamenu .col_11 {width:87.66%;}
 .megamenu .col_12 {width:96%;}
 
-.megamenu ul > li{
-    text-align: center;
+.megamenu ul > li > a{
+    padding-left: .6em;
+}
+
+.megamenu ul > li:hover div{
+    display: block !important;
 }
 
 .dropdowncontent{
-    height: 150px;
-    border: 1px solid black;
-    padding: 1em 0 1em 0;
+    //border: 1px solid black;
+    padding: 1em 0 4em 1em;
+    background: #e6e6e6;
+    width: 300% !important;
+    margin: .2em 0 0 0 !important;
+    display: none !important;
+}
+
+.dropdowncontent a{
+    font-size: small;
+    margin-bottom: .4em;
 }
 /*our process*/
 .our-process{
@@ -189,6 +223,6 @@ li{
 
 .footer{
     border: 1px solid black;
-    padding: 1em 10% 1em 10%;
+    padding: 1em 0 1em 0;
 }
 
