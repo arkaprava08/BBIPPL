@@ -131,7 +131,8 @@ li{
 
 .dropdowncontent{
     //border: 1px solid black;
-    padding: 1em 0 4em 1em;
+    height: 250px;
+    padding: 1em 0 2em 1em;
     background: #e6e6e6;
     width: 300% !important;
     margin: .2em 0 0 0 !important;
@@ -139,8 +140,16 @@ li{
 }
 
 .dropdowncontent a{
-    font-size: small;
+    font-size: x-small;
     margin-bottom: .4em;
+    text-decoration: underline;
+    text-underline-position: below;
+    
+}
+
+.dropdowncontent strong{
+    font-size: small;
+    padding-bottom: .8em;
 }
 /*our process*/
 .our-process{
