@@ -253,7 +253,7 @@ p{
 /*contact us*/
 
 .contactus{
-    padding: 1em 0 1em 0;
+    padding: 3em 0 1em 0;
 }
 
 .contactus img{
@@ -324,3 +324,40 @@ body p{
 .about-us-3-content p{
     font-size: small;
 }
+
+/*4th layer*/
+.about-us-4{
+    padding-top: 1em;
+}
+
+.about-us-4-content{
+    font-size: small;
+}
+
+/*5h layer*/
+.about-us-5{
+    padding-top: 1em;
+}
+
+.about-us-5-content1, .about-us-5-content3{
+}
+
+.about-us-5-content2, .about-us-5-content4{
+    padding-top: 2em;
+}
+.about-us-5-content2 a, .about-us-5-content4 a{
+    text-decoration: underline !important;
+    text-underline-position: below;
+}
+
+/*6,7,8th layer*/
+
+.about-us-6, .about-us-7, .about-us-8{
+    padding-top: 1em;
+}
+
+.about-us-6-content a, .about-us-7-content a, .about-us-8-content a{
+    text-decoration: underline !important;
+    text-underline-position: below;
+}
+
