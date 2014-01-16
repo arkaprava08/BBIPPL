@@ -361,3 +361,14 @@ body p{
     text-underline-position: below;
 }
 
+/*infrastructure*/
+
+.infrastructure-head{
+    padding-top: 1em;
+}
+
+.infrastructure-content p{
+    font-size: small;
+    margin: 0;
+    padding-bottom: .4em;
+}
