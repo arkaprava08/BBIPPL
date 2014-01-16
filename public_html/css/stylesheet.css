@@ -24,8 +24,21 @@ li{
 .dropdownmenu{
 
 }
-/*header*/
+/* p*/
+.head{
+    font-size: .9em !important;
+    font-weight: bold;
+    margin-bottom: .4em;
+}
 
+.subhead{
+    font-size: .8em !important;
+    margin-bottom: .4em;
+}
+
+p{
+    text-align: justify;
+}
 
 /*megamenu*/
 
@@ -195,8 +208,8 @@ li{
     padding-bottom: 1em;
 }
 
-.recent-successes > div > div:first-child > div{
-    border: 1px solid black;
+.recent-successes > div > div:first-child > img{
+    // border: 1px solid black;
     height: 250px;
 }
 .slider{
@@ -208,15 +221,16 @@ li{
     padding-top: 1em;
 }
 
-.client-employee-content > div:first-child{
-    border: 1px solid black;
-    height: 230px;
+.client-employee-content > img{
+    //border: 1px solid black;
+    //height: 230px;
 }
 
 .client-employee{
     padding-top: 1em;
     padding-bottom: 1em;
 }
+
 
 /*Blog*/
 .blog-header{
@@ -242,10 +256,16 @@ li{
     padding: 1em 0 1em 0;
 }
 
+.contactus img{
+    width: 25px;
+    margin-left: .6em;
+    cursor: pointer;
+}
+
 /* footer */
 
 .footer{
-    border: 1px solid black;
+    //border: 1px solid black;
     padding: 1em 0 1em 0;
 }
 
@@ -254,3 +274,53 @@ li{
     text-underline-position: below;
 }
 
+body p{
+    font-size: small;
+}
+
+.link{
+    position: relative;
+    bottom: 0px;
+}
+
+/*breadcrumbs*/
+
+.breadcrumbs{
+    padding: 0px;
+    background-color: white;
+    border: none;
+}
+
+/*hero*/
+
+.hero label{
+    position: absolute; 
+    bottom: 0px; 
+    margin: 0;
+    background-color: #cccccc;
+    border: 1px solid black;
+    padding: 1em;
+}
+
+.hero{
+    position: relative;
+}
+/*about us*/
+
+/*2nd layer*/
+.about-us-2{
+    padding-top: 1em;
+}
+
+.about-us-2-content p{
+    font-size: small;
+}
+
+/* 3rd layer */
+.about-us-3{
+    padding-top: 1em;
+}
+
+.about-us-3-content p{
+    font-size: small;
+}
