@@ -372,3 +372,25 @@ body p{
     margin: 0;
     padding-bottom: .4em;
 }
+
+/*Blog*/
+
+.blog-head{
+    padding-top: 1em;
+}
+
+.blog-content p{
+    font-size: small;
+}
+
+.blog-bottom{
+    padding-top: 3em;
+}
+
+dl{
+    padding-top: 2em;
+}
+
+dl a{
+    font-size: small;
+}
