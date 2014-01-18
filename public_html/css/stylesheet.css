@@ -187,15 +187,22 @@ p{
     padding-bottom: 1em;
 }
 
-.our-process-content{
+.our-process-content a{
+    font-size: x-small;
     display: block;
-    height: 140px;
-    border: 1px solid black;
+    padding-top: 1em;
+    text-decoration: underline !important;
+    text-underline-position: below;
+}
+
+.our-process-content p{
+    font-weight: bold;
 }
 
 .our-process-head{
     padding-top: 1em;
 }
+
 
 /*recent successes*/
 .recent-successes-header{
