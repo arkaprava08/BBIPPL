@@ -401,3 +401,20 @@ dl{
 dl a{
     font-size: small;
 }
+
+/*overview */
+.overview{
+    padding-top: 1em;
+}
+
+.accordion a{
+    font-size: small;
+}
+
+.accordion ul{
+    font-size: small;
+}
+
+.accordion ul, .accordion li{
+    list-style: circle !important;
+}
