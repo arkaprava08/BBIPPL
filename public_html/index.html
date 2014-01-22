@@ -47,145 +47,7 @@
         </section>
     </nav>
             -->
-
-            <ul class="row megamenu">
-                <li class="medium-2 columns medium-offset-2"><a href="#">OFFERINGS</a>
-                    <div class="dropdown_columns dropdown_container">
-                        <div class="col_12">
-                            <ul class="col_12 clearfix">
-                                <li class="medium-4 left"><a href="#">SERVICES</a>
-                                    <div class="dropdowncontent col_12">
-                                        <div class="medium-4 left">
-                                            <strong>Information Technology</strong>
-                                            <a>Software Application Development</a>
-                                            <a>Mobility</a>
-                                            <a>User Experience Design</a>
-                                            <a>ERP(SAP)</a>
-                                            <a>Digital Marketing</a>
-                                        </div>
-                                        <div class="medium-4 left">
-                                            <strong>Integrated Engineering</strong>
-                                            <a>Integrated Mechanical Services</a>
-                                            <a>Integrated Embedded Services</a>
-
-                                            <br>
-                                            <strong>Enterprise Integration</strong>
-                                        </div>
-                                        <div class="medium-4 left">
-                                            <strong>Contract Manufacturing</strong>
-                                            <a>Mechanical Manufacturing</a>
-                                            <a>Electronic Manufacturing</a>
-
-                                            <br>
-                                            <strong>Renewable Energy</strong>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="medium-4 left"><a href="#">SECTORS</a>
-                                    <div class="dropdowncontent col_12" style="left: -100%">
-                                        <div class="medium-4 left">
-                                            <a>Aerospace and aviation</a>
-                                            <a>Automotive</a>
-                                            <a>Consumer Electronics</a>
-                                            <a>Defense</a>
-                                            <a>Energy & Utilities</a>
-                                            <a>Engineering</a>
-                                        </div>
-                                        <div class="medium-4 left">
-                                            <a>Government</a>
-                                            <a>Health care</a>
-                                            <a>Information Technology</a>
-                                            <a>Infrastructure</a>
-                                            <a>Insurance</a>
-                                            <a>Manufacturing</a>
-                                        </div>
-                                        <div class="medium-4 left">
-                                            <a>Pharmaceutical</a>
-                                            <a>Public Sector</a>
-                                            <a>Retail</a>
-                                            <a>Semiconductor</a>
-                                            <a>Transport & Toll</a>
-                                            <a>Telecom</a>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="medium-4 left"><a href="#">SOLUTIONS</a>
-                                    <div class="dropdowncontent col_12" style="left: -200%">
-                                        <div class="medium-4 left">
-                                            <strong>Internet Of Things</strong>
-                                            <a>Machine To Machine(M2M)</a>
-                                            <a>Smart Utilities</a>
-                                            <a>Transport & Toll</a>
-                                            <a>Healthcare (21st century)</a>
-                                            <a>Solutions Accelerator</a>
-                                        </div>
-                                        <div class="medium-4 left">
-                                            <strong>Mobile Solution</strong>
-
-                                            <br><br><br><br>
-                                            <strong>Renewable Energy</strong>
-                                        </div>
-                                        <div class="medium-4 left">
-                                            <strong>Herald Logic</strong>
-
-                                            <br><br><br><br>
-                                            <strong>Manufactured Products</strong>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-
-                        </div>
-                    </div>
-                </li>
-                <li class="medium-2 columns"><a href="#">COMPANY</a>
-                    <div class="dropdown_columns dropdown_container" style="left: -100%">
-                        <div class="col_12">
-                            <ul class="col_12 clearfix">
-                                <li class="medium-4 left"><a href="about_us.html">ABOUT US</a>
-                                    <div class="dropdowncontent col_12">
-                                        <div class="medium-4 left">
-                                            <strong>Vision</strong>
-                                        </div>
-                                        <div class="medium-4 left">
-                                            <strong>Core Team</strong>
-                                        </div>
-                                        <div class="medium-4 left">
-                                            <strong>Collaborations</strong>
-                                        </div>
-
-                                        <br><br><br><br>
-
-                                        <div class="medium-4 left">
-                                            <strong>Clients</strong>
-                                        </div>
-                                        <div class="medium-4 left">
-                                            <strong>Practices</strong>
-                                        </div>
-                                        <div class="medium-4 left">
-                                            <strong>Corporate Social Responsibility</strong>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="medium-4 left"><a href="infrastructure.html">INFRASTRUCTURE</a></li>
-                                <li class="medium-4 left"><a href="blog.html">BLOG</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </li>
-                <li class="medium-2 columns"><a href="#">RESOURCES</a>
-                    <div class="dropdown_columns dropdown_container" style="left: -200%">
-                        <div class="col_12">
-                            <ul class="col_12 clearfix">
-                                <li class="medium-4 left"><a href="#">CASE STUDIES</a></li>
-                                <li class="medium-4 left"><a href="#">BROCHURES</a></li>
-                                <li class="medium-4 left"><a href="#">GALLERY</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </li>
-                <li class="medium-2 columns left"><a href="#">CONTACT US</a></li>
-            </ul>
+            <div id="dynamic_menu"></div>
 
 
             <br>
@@ -413,6 +275,11 @@
         <script>
             $(document).foundation();
         </script>
+        <script>
+            $(function() {
+                $("#dynamic_menu").load("headerpage.html");
+            });
+        </script> 
         <!--<script type='text/javascript' src='js/jquery.dcmegamenu.1.3.3.js'></script>
         <script type='text/javascript' src='js/jquery.hoverIntent.minified.js'></script>
         
