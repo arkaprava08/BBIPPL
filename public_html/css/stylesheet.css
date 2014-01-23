@@ -3,6 +3,7 @@
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 1em
 }
 li{
     list-style: none;  
@@ -45,9 +46,9 @@ p{
 .megamenu{
     //border: 1px solid black;
     //background-color: #999999;
-    background-color: #fafafa;
+    background-color: #0a4773;
     position: relative;
-    border: 1px solid #eeeeee;
+    //border: 1px solid #eeeeee;
 }
 
 .megamenu a{
@@ -56,10 +57,17 @@ p{
     display: block;
 }
 
-.megamenu > li > a, .dropdown_container > div > ul > li > a{
-    font-size: small;
-    color: #946666;
+.megamenu > li > a{
+    color: #f1fff8;
     display: block;
+    font-weight: bold;
+}
+
+.dropdown_container > div > ul > li > a{
+    font-size: small;
+    color: black;
+    display: block;
+    font-weight: bold;
 }
 
 .dropdown_container > div > ul > li > a{
@@ -67,11 +75,16 @@ p{
 }
 .megamenu > li > a{
     padding-left: .5em;
+    text-align: center;
 }
 
 .megamenu ul li:hover{
     //background-color: #e6e6e6;
-    background-color: #f3f3f3;
+    background-color: #e6e6e6;
+}
+
+.megamenu > li:hover{
+    background-color: #cccccc !important;
 }
 
 .megamenu ul li{
@@ -92,12 +105,12 @@ p{
 
 
 .megamenu .dropdown_columns {
-    width: 400%;
+    width: 600.38%;
 }
 .megamenu li:hover .dropdown_container {
     top:100%;
     left:auto;
-    background-color: #fafafa;
+    background-color: #cccccc;
 }
 
 .dropdown_container{
@@ -111,7 +124,7 @@ p{
     zoom:1;
     z-index:9998;
     float: left;
-    border: 1px solid #eeeeee;
+    //border: 1px solid #eeeeee;
 }
 
 .megamenu .col_1,
@@ -150,6 +163,7 @@ p{
 
 .megamenu ul > li > a{
     padding-left: .6em;
+    text-align: center;
 }
 
 .megamenu ul > li:hover div{
@@ -158,25 +172,26 @@ p{
 
 .dropdowncontent{
     //border: 1px solid black;
-    height: 250px;
-    padding: 1em 0 2em 1em;
+    height: 300px;
+    padding: 1em 0 4em 1em;
     //background: #e6e6e6;
-    background-color: #f3f3f3;
+    background-color: #e6e6e6;
     width: 300% !important;
     margin: .2em 0 0 0 !important;
     display: none !important;
 }
 
 .dropdowncontent a{
-    font-size: x-small;
-    margin-bottom: .4em;
-    text-decoration: underline;
-    text-underline-position: below;
+    font-size: .7em;
+    margin-bottom: .6em;
 }
 
 .dropdowncontent strong{
-    font-size: small;
-    padding-bottom: .8em;
+    font-size: .7em;
+    padding-bottom: 1em;
+    display: block;
+    text-decoration: underline;
+    text-underline-position: below;
 }
 /*our process*/
 .our-process{
@@ -305,7 +320,7 @@ body p{
     bottom: 0px; 
     margin: 0;
     background-color: #cccccc;
-    border: 1px solid black;
+    //border: 1px solid black;
     padding: 1em;
 }
 
